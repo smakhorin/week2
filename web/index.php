@@ -20,7 +20,7 @@ if (count($url) == 1)
       echo 'StepanM';
       break;
     case 'sample':
-      $sample = <<JS
+      $sample = <<<JS
           function task(x) {
             return x * this ^ 2;
           }
