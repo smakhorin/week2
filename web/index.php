@@ -23,7 +23,7 @@ if (count($url) == 1)
     case 'sample':
       $sample = <<<JS
           function task(x) {
-            return x * this ^ 2;
+            return x * this * this;
           }
       JS;
       echo $sample;
