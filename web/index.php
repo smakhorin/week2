@@ -4,6 +4,7 @@ require('../vendor/autoload.php');
 
 header('X-Author: StepanM');
 header('Access-Control-Allow-Origin: *');
+header('Content-Type: text/plain; charset=UTF-8');
 
 $url = $_GET['url'];
 
